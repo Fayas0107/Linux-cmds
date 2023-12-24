@@ -1,0 +1,29 @@
+Here is some Hard link and symbolic files or folder  creation commands for your reference.
+
+Hard Links:- 
+These are references to the physical file on the disk. Changes to the original file reflect in all hard links as they point to the same underlying data.
+Symbolic Links (Soft Links):-
+These are pointers to the file's path. Symbolic links are separate files that point to the target file or directory, and if the original file is moved or removed, the symbolic link becomes broken.
+
+1) Creating hard link.
+"ln original_file hard_link" Replace original_file with the existing file and hard_link with the name of the hard link you want to create.
+
+2) Creating symbolic link.
+"ln -s original_file symbolic_link" Replace original_file with the existing file or directory and symbolic_link with the name of the symbolic link you want to create.
+
+3) Force creation.
+"ln -sf original_file symbolic_link" This will forcefully create the symbolic link, replacing it if it exists.
+
+4) Ceating links to directories.
+"ln -s /path/to/original_directory symbolic_link_to_directory"  This will create a symbolic link to a directory.
+
+5) to view links you can use.
+"ls -l" to list out the directories.
+
+6) Creating links to entire directories.
+"ln -s /path/to/original_directory symbolic_link_to_directory" This will create a symbolic link to a directory.
+
+7) Copying links and not thier targets.
+"cp -dR --symbolic-link /path/to/source /path/to/destination" This copies symbolic links themselves without copying their targets.
+
+"These are few hard and symbolic files or folder creating in various aspects."
