@@ -1,0 +1,15 @@
+This is linux ls cmd for try it out
+
+"ls"       To list the contents of the current directory.
+"ls -l -r" This lists files in reverse order.
+"ls -S"    Sorts files by size, displaying the largest files first.
+"ls -a"    To display all files, including hidden files that start with a dot.
+"ls -lh"   To display file sizes in a human-readable format (e.g., KB, MB, GB).
+"ls -R"    Lists all files and directories recursively, including subdirectories.
+"ls -lt"   This lists files sorted by modification time, showing the most recently modified files first.
+"ls *.txt" This lists only files with the .txt extension. You can replace .txt with any file extension.
+"ls -t"    Sorts files and directories by modification time, displaying the most recently modified files first.
+"ls /path/to/directory" To list files in a particular directory (replace /path/to/directory with the directory path).
+"ls -l"    To display detailed information about files and directories, including permissions, owner, size, and modification date.
+
+these are few LS commands for your reference for practice.
