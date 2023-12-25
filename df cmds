@@ -1,0 +1,16 @@
+These are some df commands
+
+"df" Running df without any arguments shows disk space usage for all mounted filesystems.
+"df -h" The -h option provides output in a human-readable format (e.g., KB, MB, GB).
+"df -T" Use the -T option to display the filesystem type along with disk space information.
+"df /dev/sda1" You can specify the filesystem (e.g., by mount point or device) to get disk space information for that specific filesystem.
+"df -i" In addition to disk space usage, you can use the -i option to display inode usage.
+"df -k" Display the total disk space in 1K blocks.
+"df --exclude-type=tmpfs" Exclude specific filesystem types using the --exclude-type option.
+"du -sh /path/to/directory" To get disk space usage for a particular directory, use the du command instead. df is for filesystems, while du is for directories.
+"df -x tmpfs" You can use the -x flag to exclude certain filesystem types. For instance, to exclude the tmpfs filesystem.
+"df -t ext4" To display only specific types of filesystems (e.g., ext4, ntfs), use the -t flag.
+
+here we go for some df commands for practice...
+
+  
