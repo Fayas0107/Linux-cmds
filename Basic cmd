@@ -1,0 +1,21 @@
+This is some basic linux commands to be known for all user..
+
+"mkdir"  Make directory or folder.
+"Touch"  To make a file or sheet.
+"PWD"    Print/present working directory it will show the path.
+"DF"     Show partitions.
+"rmdir"  To remove any folder or directory.
+"RM"     to remove file or sheet.
+"RM -R -F" to remov folder or file forcefuly.
+"History"  To check all the cammand that  we run it will show 1000 cammands by default.
+"history -c" To clear the temp terminal history. 
+"CD"      Change directory or path.
+"CD .."   To came back from the directory or folder.
+"Clear"   To clear the terminal or puch up.
+"CTRL C"  To cancel any folder or file.
+"--help"  To get information abt the flag which we use.
+"whatis (cmd)" To get  the short discription of the cammands.
+"Man"     to get the large information of the cammands. 
+"Whoami"  to check from who we logged in.
+
+Thses are just basics cmds for u thanks a lot.
